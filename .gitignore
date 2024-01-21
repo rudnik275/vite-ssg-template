@@ -1,0 +1,4 @@
+node_modules
+.vite-ssg-temp
+dist
+yarn-error.log

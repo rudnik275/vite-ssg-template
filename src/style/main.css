@@ -1,0 +1,62 @@
+:root {
+  --text-black: #080B11;
+  --text-gray: #767B87;
+  --text-white: #fff;
+  --text-disabled: #9a9fab;
+  --surface-white: #fff;
+  --surface-light: #F5F8FF;
+  --primary: #011FBB;
+  --primary-light: #4461F8;
+  --primary-surface-light: #e2e7fd;
+  --primary-dark-blue: #011FBB;
+  --secondary: #01A6C7;
+  --border: #D3D5DB;
+}
+
+html {
+  font-size: 10px;
+  color: var(--text-black);
+
+  @media (max-width: 960px) {
+    font-size: 9px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-family: 'Sora', sans-serif;
+}
+
+.container {
+  max-width: 118rem;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #011FBB, #4C69FF, #01A6C7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first-screen-background {
+  background: url("../assets/background-logo.svg") right -9rem top -9rem no-repeat, linear-gradient(315deg, #01A6C7 0%, #4D88FF 22.34%, #011FBB 86.93%);
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none !important;
+  }
+}
+

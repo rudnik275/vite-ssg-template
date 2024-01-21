@@ -1,0 +1,14 @@
+{
+  "module": "ESNext",
+  "target": "es2020",
+  "lib": [
+    "ESNext",
+    "DOM"
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "types": [
+      "vite/client"
+    ]
+  }
+}
